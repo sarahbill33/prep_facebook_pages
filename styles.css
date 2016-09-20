@@ -1,0 +1,76 @@
+
+body{
+	font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+div{
+	border: 1px solid gray;
+}
+
+.navbar{
+	width:100%;
+	height:80px;
+	display: inline-block;
+	background-color: #3377ff;
+}
+
+.logo{
+	float:left;
+	width:300px;
+	color: white;
+	font-size: 45px;
+	line-height: 80px;
+	align-content: center;
+	margin-left:50px;
+}
+
+.sign-in{
+	float:right;
+	width:400px;
+	color: white;
+	display:inline-block;
+	margin-right:40px;
+}
+
+.login-button{
+	float:right;
+	line-height: 80px;
+}
+
+.password{
+	display:inline-block;
+	height:80px;
+}
+
+.email{
+	float:left;
+	height:80px;
+	margin-right:20px;
+}
+
+.email h3{
+	padding-top:12px;
+}
+
+.password h3{
+	padding-top:12px;
+}
+
+.login-button button{
+	background-color: #ccddff;
+	border: 1px solid gray;
+}
+
+.main-content{
+	display:inline-block;
+}
+
+.intro-summary{
+	float:left;
+	width:800px;
+}
+
+.sign-up-form{
+	float:right;
+	width:490px;
+}
