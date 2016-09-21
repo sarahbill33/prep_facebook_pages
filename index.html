@@ -4,6 +4,8 @@
 	<title>Welcome to Facelook</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Coming+Soon">
 </head>
 <body>
 	<div class="navbar">
@@ -30,10 +32,43 @@
 	</div>
 	<div class="main-content">
 		<div class="intro-summary">
-			Intro Summary
+			<h2>Connect with all your friends!</h2>
+			<ul>
+				<li><strong>See photos and updates</strong> in your news feed</li>
+				<li><strong>Post your status for the world to see</strong> from your profile</li>
+				<li><strong>Get in touch with your friends</strong> by "friending" them</li>
+				<li><strong>Like things</strong> because you're a positive person!</li>
+			</ul>
 		</div>
 		<div class="sign-up-form">
-			Sign up!
+			<h1>Sign up</h1>
+			<div class="name-email-pass">
+				<form action="#" method="post">
+					<input type="text" name="first-name" value="First Name">
+					<input type="text" name="last-name" value="Last Name">
+					<input type="email" name="email" value="Your Email">
+					<input type="text" name="password" value="Your New Password">
+					<input type="text" name="password-confirm" value="Confirm Your Password">
+				</form>
+			</div>
+			<div class="birthday">
+				<h2>Birthday</h2>
+				<form action="#" method="post">
+					<input type="date" name="birthday"
+					value="Birth Date">
+				</form>
+			</div>
+			<div class="gender">
+				<form action="#" method="post">
+					<input type="radio" name="female" value="Female">
+					<label for="female">Female</label>
+					<input type="radio" name="male" value="Male">
+					<label for="male">Male</label>
+				</form>
+			</div>
+			<div class="sign-up-button">
+				<button type="submit">Sign Up!</button>
+			</div>
 		</div>
 	</div>
 </body>
